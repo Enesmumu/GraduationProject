@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/button1">
+
+        <ImageView
+            android:id="@+id/yingyuan_fanhui"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/fanhui" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@color/button1"
+            android:gravity="center"
+            android:text="影院信息"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@mipmap/dianyingyuan" />
+
+        <TextView
+            android:id="@+id/cinema_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/beijing"
+            android:gravity="center_vertical"
+            android:text="影院名"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/cinema_add"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/beijing"
+            android:maxLines="2"
+            android:text="地址:"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <ListView
+            android:id="@+id/dianying_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+</LinearLayout>

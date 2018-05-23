@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:background="@mipmap/shaw"
+            android:id="@+id/dianyingids_list"
+            android:layout_width="80dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/dianyingname_list"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="80dp"
+            android:gravity="center_vertical"
+            android:text="电影名"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/dianyingdes_list"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center_vertical"
+            android:text="简介"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+</LinearLayout>

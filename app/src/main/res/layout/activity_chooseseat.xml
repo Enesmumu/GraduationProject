@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/button1">
+
+        <ImageView
+            android:id="@+id/seat_fanhui"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/fanhui" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:background="@color/button1"
+            android:text="选择座位"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/cinema_screen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="屏幕方向"
+            android:background="@color/white"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            />
+        <com.school.graduationdesign.ChooseSeat.SeatTableView
+            android:layout_centerInParent="true"
+            android:id="@+id/seat_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cinema_screen"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip" >
+        </com.school.graduationdesign.ChooseSeat.SeatTableView>
+        <LinearLayout
+            android:id="@+id/seat_raw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="vertical"
+            android:layout_below="@+id/cinema_screen">
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/seat_queren"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@color/button1"
+            android:layout_centerVertical="true"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:text="确认"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+</LinearLayout>

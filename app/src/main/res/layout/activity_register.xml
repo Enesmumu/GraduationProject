@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/denglu"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+        <ImageView
+            android:id="@+id/fanhui2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@mipmap/fanhui1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/shoujihao"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:hint="请输入手机号"
+                android:paddingLeft="10dp"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/mima"
+                android:layout_alignLeft="@+id/shoujihao"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:textSize="15sp" />
+            <EditText
+                android:id="@+id/queren_mima"
+                android:layout_alignLeft="@+id/shoujihao"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:paddingLeft="10dp"
+                android:hint="请确认密码"
+                android:inputType="textPassword"
+                android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/zhuce"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@color/button"
+            android:text="注册"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/yonghushouze"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="我已阅读并同意票子APP用户守则"
+            android:textColor="@color/ziti"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="票子APP用户守则"
+            android:textColor="@color/button1"/>
+    </RelativeLayout>
+
+</LinearLayout>

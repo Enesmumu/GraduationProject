@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/cinemaname_list"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="奥斯卡高新区店"
+                android:textSize="20sp"
+                android:textColor="@color/black">
+
+            </TextView>
+            <TextView
+                android:id="@+id/cinemaadd_list"
+                android:gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="解放军信息工程学院对面"
+                android:textSize="13sp"
+                android:textColor="@color/black">
+
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+            <ImageView
+                android:id="@+id/cinemaids_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/dianyingyuan"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button1">#202020</color>
+    <color name="button3">#454242</color>
+    <color name="button">#39B0B4</color>
+    <color name="denglukuang">#dadada</color>
+    <color name="ziti">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="jinru">#2882C8</color>
+    <color name="qianlan">#a5edff</color>
+    <color name="beijing">#DFF2FF</color>
+    <color name="red">#ff1616</color>
+</resources>

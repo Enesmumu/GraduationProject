@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/button1">
+
+        <ImageView
+            android:id="@+id/userinfo_fanhui"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/fanhui" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@color/button1"
+            android:gravity="center"
+            android:text="个人信息"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_nick"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="昵称"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/user_tv_nick"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/user_nick"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/user_des"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/user_nick"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="简介"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/user_tv_des"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/user_nick"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/user_des"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/user_phone"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/user_des"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="电话"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/user_tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/user_des"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/user_phone"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/user_school"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/user_phone"
+            android:gravity="center"
+            android:paddingLeft="5dp"
+            android:text="学校/公司"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/user_tv_school"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/user_phone"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/user_school"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/user_update"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@color/button1"
+            android:text="修改"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

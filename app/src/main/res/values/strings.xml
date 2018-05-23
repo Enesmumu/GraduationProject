@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">票子电影</string>
+    <dimen name="padding_1dp">1dp</dimen>
+    <dimen name="padding_2dp">2dp</dimen>
+    <dimen name="padding_20dp">20dp</dimen>
+    <dimen name="padding_100dp">100dp</dimen>
+</resources>

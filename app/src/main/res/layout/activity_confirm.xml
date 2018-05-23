@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/button1">
+
+        <ImageView
+            android:id="@+id/confirm_fanhui"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/fanhui" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:background="@color/button1"
+            android:text="确认信息"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="电影名" />
+                <TextView
+                    android:id="@+id/cf_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="钢铁侠"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:text="时间" />
+                <TextView
+                    android:id="@+id/cf_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="钢铁侠"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="影厅" />
+                <TextView
+                    android:id="@+id/cf_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="钢铁侠"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="选择座位" />
+                <TextView
+                    android:id="@+id/cf_seat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="1排3座"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    android:text="总计金额" />
+                <TextView
+                    android:id="@+id/cf_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="35"
+                    android:textSize="20sp"
+                    android:gravity="center_vertical"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/pay"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@color/button1"
+            android:text="去支付"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</LinearLayout>

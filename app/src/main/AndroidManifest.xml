@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.school.graduationdesign">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".Activity.Guide">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Activity.QiDong"></activity>
+        <activity android:name=".Activity.HuaDong"></activity>
+        <activity android:name=".Activity.Start"></activity>
+        <activity android:name=".Activity.Login"></activity>
+        <activity android:name=".Activity.Register"></activity>
+        <activity android:name=".Activity.FindPassword"></activity>
+        <activity android:name=".Activity.DianYing"></activity>
+        <activity android:name=".Activity.DianYingCinemaTime"></activity>
+        <activity android:name=".Activity.YingYuan"></activity>
+        <activity android:name=".Activity.YingYuanCinemaTime"></activity>
+        <activity android:name=".Activity.Confirm"></activity>
+        <activity android:name=".Activity.GridChoose"></activity>
+        <activity android:name=".Activity.UserUpdate"></activity>
+        <activity android:name=".Activity.UserInfo"></activity>
+        <activity android:name=".ChooseSeat.SelectMovieSeatActivity"></activity>
+        <activity android:name=".Administration.Administration"></activity>
+        <activity android:name=".Administration.AdmLogin"></activity>
+        <activity android:name=".Administration.AdmCinema"></activity>
+        <activity android:name=".Administration.AdmMovie"></activity>
+        <activity android:name=".Administration.AdmUser"></activity>
+        <activity android:name=".Administration.AdmUserUpdate"></activity>
+        <activity android:name=".Administration.AdmCinemaAdd"></activity>
+        <activity android:name=".Administration.AdmMovieUpdate"></activity>
+        <activity android:name=".Administration.AdmCinemaUpdate"></activity>
+        <activity android:name=".Administration.AdmMovieAdd"></activity>
+        <activity android:name=".Administration.AdmCinemaTime"></activity>
+        <activity android:name=".Administration.AdmCinemaTimeAdd"></activity>
+        <activity android:name=".Administration.AdmCinemaTimeUpdate"></activity>
+        <activity android:name=".Administration.AdmSeat"></activity>
+
+    </application>
+
+
+</manifest>
